@@ -40,6 +40,6 @@ document.querySelector("#project-4-github").addEventListener('click',function(){
 });
 
 
-document.querySelector("#resume-link-2").addEventListener('click',function(){
+document.querySelector("#resume-button-2").addEventListener('click',function(){
     window.location.href="Atul_Harsh_resume.pdf";
 })

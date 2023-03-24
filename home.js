@@ -41,5 +41,30 @@ document.querySelector("#project-4-github").addEventListener('click',function(){
 
 
 document.querySelector("#resume-button-2").addEventListener('click',function(){
-    window.location.href="Atul_Harsh_resume.pdf";
-})
+    
+    window.open("https://drive.google.com/file/d/1dinOVVjudjovgnnKOD5hIyQQ-TZNwOzy/view?usp=sharing","_blank");
+});
+
+document.querySelector("#resume-button-1").addEventListener('click',function(){
+    
+    window.open("https://drive.google.com/file/d/1dinOVVjudjovgnnKOD5hIyQQ-TZNwOzy/view?usp=sharing","_blank");
+});
+
+
+
+
+
+const hamburger = document.querySelector(".hamburger");
+
+const navmenu = document.querySelector(".navmenu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navmenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".navlink ").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navmenu.classList.remove("active");
+    
+}));
